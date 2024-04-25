@@ -1,9 +1,11 @@
 import React from 'react'
 
 const ProductsPage = () => {
-  return (
-    <div>ProductsPage</div>
-  )
+    return (
+        <div>
+            ProductsPages
+        </div>
+    )
 }
 
 export default ProductsPage
