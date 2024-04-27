@@ -5,7 +5,7 @@ const DefaultComponent = ({ children }) => {
     return (
         <div>
             <HeaderComponent />
-            DefaultComponent
+            {/* DefaultComponent */}
             {children}
         </div>
     )
