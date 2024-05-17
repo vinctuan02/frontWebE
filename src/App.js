@@ -12,9 +12,9 @@ function App() {
   }, [])
 
   const fetchApi = async () => {
-    const res = await axios.get(`http://localhost:8080/api/product/get-all-details-product`)
+    // const res = await axios.get(`http://localhost:3001/api/product/get-all-details-product`)
     // console.log("res: ", res)
-    return res.data
+    // return res.data
   }
 
   // const query = useQuery({ queryKey: 'todos', queryFn: fetchApi })

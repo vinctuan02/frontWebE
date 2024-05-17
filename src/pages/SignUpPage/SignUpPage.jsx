@@ -140,13 +140,12 @@
 
 import React from 'react'
 
-const SignInPage = () => {
-  return (
-    <div>
-      SignInPage
-    </div>
-  )
+const SignUpPage = () => {
+    return (
+        <div>
+            SignUpPage
+        </div>
+    )
 }
 
-export default SignInPage
-
+export default SignUpPage
