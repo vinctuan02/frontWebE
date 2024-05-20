@@ -8,7 +8,9 @@ const ButtonComponent = ({ size, styleButton, styleTextButton, textButton, ...re
             // ordered={bordered}
             style={styleButton}
             {...rests}
-        ><span style={styleTextButton}>{textButton}</span></Button>
+        >
+            <span style={styleTextButton}>{textButton}</span>
+        </Button>
     )
 }
 
