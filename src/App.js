@@ -17,7 +17,7 @@ function App() {
     // return res.data
   }
 
-  // const query = useQuery({ queryKey: 'todos', queryFn: fetchApi })
+  // const query = useQuery({ queryKey: ['todos'], queryFn: fetchApi })
   // console.log("query: ", query)
 
   return (
